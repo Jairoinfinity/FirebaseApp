@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import BackgroundImage from '../components/BackgroundImage';
 import AppButton from '../components/AppButton';
-import { NavigationActions } from 'react-navigation';
+//import { NavigationActions } from 'react-navigation';
 import Toast from 'react-native-simple-toast';
 import * as firebase from 'firebase';
 

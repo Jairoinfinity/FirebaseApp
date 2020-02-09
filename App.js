@@ -13,13 +13,10 @@ firebase.initializeApp({
   appId: "1:107729213091:web:1158bb013f5c11f717d116",
   measurementId: "G-P1FS6NJQXS"
 });
+import MyStack from './app/navigations/guest';
 
 export default function App() {
   return (
-    <BackgroundImage
-      source={require('./assets/img/fondo3.png')}
-    >
-      <Start></Start>
-    </BackgroundImage>
+    <MyStack/>
   );
 }
