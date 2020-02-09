@@ -25,6 +25,7 @@ export default class AppButton extends Component {
                         name={iconName}
                         size={15}
                         color={iconColor}
+                        style={{marginLeft: 5}}
                     ></Icon>
                 }
                 text={title}
