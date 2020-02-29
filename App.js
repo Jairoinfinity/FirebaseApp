@@ -1,7 +1,5 @@
 import React from 'react';
-import BackgroundImage from './app/components/BackgroundImage';
-import Start from './app/screens/Start';
-//import firebaseConfig from './app/utils/firebase';
+import { NavigationContainer } from '@react-navigation/native';
 import * as firebase from 'firebase';
 firebase.initializeApp({
   apiKey: "AIzaSyB0bG0Oou8txOyEDVxychlejG2PvhDhJic",
@@ -17,6 +15,8 @@ import MyStack from './app/navigations/guest';
 
 export default function App() {
   return (
-    <MyStack/>
+    <NavigationContainer>
+      <MyStack />
+    </NavigationContainer>
   );
 }
